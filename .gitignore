@@ -1,0 +1,20 @@
+# Neovim logs
+*.log
+
+# Test files
+tt.*
+.tests
+foo.*
+
+# Debug files
+debug/
+
+# Generated tags
+doc/tags
+
+# Temporary repro environment
+.repro/
+
+# OS files
+.DS_Store
+Thumbs.db
