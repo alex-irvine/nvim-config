@@ -21,5 +21,4 @@ return {
       },
     },
   },
-  -- Formatters will be auto-installed by Mason when needed via automatic_installation
 }
