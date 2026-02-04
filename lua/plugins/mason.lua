@@ -14,16 +14,8 @@ return {
   {
     "mason-org/mason-lspconfig.nvim",
     opts = {
-      ensure_installed = {
-        "ts_ls",           -- TypeScript/JavaScript/React
-        "omnisharp",       -- C#
-        "gopls",           -- Go
-        "jsonls",          -- JSON
-        "yamlls",          -- YAML
-        "marksman",        -- Markdown
-        "lemminx",         -- XML
-        "lua_ls",          -- Lua
-      },
+      -- Don't pre-install LSPs, let them install automatically when needed
+      -- This is better for devcontainers where language availability varies by project
       automatic_installation = true,
     },
   },
