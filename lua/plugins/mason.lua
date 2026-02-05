@@ -17,4 +17,17 @@ return {
       automatic_installation = true,
     },
   },
+  {
+    "WhoIsSethDaniel/mason-tool-installer.nvim",
+    opts = {
+      ensure_installed = {
+        -- Formatters and linters (these don't auto-install)
+        "prettier",
+        "eslint_d",
+        "csharpier",
+      },
+      auto_update = false,
+      run_on_start = true,
+    },
+  },
 }
